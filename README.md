@@ -253,14 +253,14 @@ spring:
         "-Dspring.main.web-application-type=none",
         "-Dlogging.pattern.console=",
         "-jar",
-        "/yours_path/mcp-server-0.0.1-SNAPSHOT.jar" 
+        "/yours_path/mcp-seal-generate-server-0.0.1-SNAPSHOT.jar" 
       ],
       "env": {}
     }
   }
 }
 ```
->其中`/yours_path/mcp-server-0.0.1-SNAPSHOT.jar`需要替换为实际的MCP Server的jar包路径。
+>其中`/yours_path/mcp-seal-generate-server-0.0.1-SNAPSHOT.jar`需要替换为实际的MCP Server的jar包路径。
 
 #### Cherry Studio 接入
 #### 使用
