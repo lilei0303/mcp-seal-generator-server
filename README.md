@@ -1,12 +1,11 @@
 # 公章、私章生成 MCP Server
 
 ## 简介
-MCP公章、私章生成服务是一款基于Spring Boot开发的服务，支持通过MCP协议生成公章和私章图片。服务提供以下主要功能：
+该项目是一款基于Spring AI开发的MCP服务，支持通过MCP协议生成公章和私章图片，生成的图片通过MinIO对象存储服务保存到本地，工具返回的是图片地址。
 关于MCP协议，详见MCP官方[文档](https://modelcontextprotocol.io/)。
+任意支持MCP协议的智能体助手（如`Claude`、`Cursor`以及`千帆AppBuilder`等）都可以快速接入。
 
-依赖`MCP Java SDK`开发，任意支持MCP协议的智能体助手（如`Claude`、`Cursor`以及`千帆AppBuilder`等）都可以快速接入。
-
-以下会给更出详细的适配说明。
+服务提供以下主要功能：
 
 ## 工具列表
 
@@ -24,7 +23,9 @@ MCP公章、私章生成服务是一款基于Spring Boot开发的服务，支持
 
 ## 快速开始
 
-使用公/私章生成MCP Server可以通过`Java SDK` 和 `SSE` 的形式
+使用公/私章生成MCP Server可以通过`Stdio` 或 `SSE` 的形式
+- Stdio方式：适合命令行工具和桌面应用集成，简单直接，无需网络
+- SSE方式：适合Web应用和需要实时更新的场景，支持长连接和服务器推送
 
 ### Mcp Server java 开发
 
