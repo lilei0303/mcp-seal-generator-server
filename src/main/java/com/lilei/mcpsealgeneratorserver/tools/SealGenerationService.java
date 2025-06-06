@@ -138,7 +138,8 @@ public class SealGenerationService {
 
             return RespImageVO.builder()
                     .status("success")
-                    .message("私章生成成功")
+                    .message("私章生成成功！以下是生成的私章图片URL：[图片URL]。如需进一步自定义私章，您可提供以下信息:" +
+                            "姓名文字、印章文字、图片尺寸、线条粗细和字体大小等。")
                     .imageUrl(url)
                     .imageType("image/png")
                     .build().toString();

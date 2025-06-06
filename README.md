@@ -1,9 +1,8 @@
 # 公章、私章生成 MCP Server
 
 ## 简介
-
-[面试鸭](https://mianshiya.com/)
-的题目搜索API现已兼容MCP协议，是国内首家兼容MCP协议的面试刷题网站。关于MCP协议，详见MCP官方[文档](https://modelcontextprotocol.io/)。
+MCP公章、私章生成服务是一款基于Spring Boot开发的服务，支持通过MCP协议生成公章和私章图片。服务提供以下主要功能：
+关于MCP协议，详见MCP官方[文档](https://modelcontextprotocol.io/)。
 
 依赖`MCP Java SDK`开发，任意支持MCP协议的智能体助手（如`Claude`、`Cursor`以及`千帆AppBuilder`等）都可以快速接入。
 
