@@ -1,0 +1,16 @@
+spring:
+  ai:
+    mcp:
+      server:
+        enabled: true                # 启用/禁用 MCP 服务
+        stdio: false                 # 启用/禁用 stdio 传输
+        name: my-mcp-server          # 服务名称
+        version: 0.0.1               # 服务版本
+        type: SYNC                   # 服务类型(SYNC/ASYNC)
+        sse: true                   # 启用 SSE 传输
+        resource-change-notification: true  # 启用资源变更通知
+        prompt-change-notification: true    # 启用提示词变更通知
+        tool-change-notification: true      # 启用工具变更通知
+#        sse-endpoint: /sse              # SSE 端点路径
+#        sse-message-endpoint: /mcp/message  # SSE 消息端点路径
+#        base-url: /api/v1           # 客户端访问路径将是/api/v1/sse 和 /api/v1/mcp/message

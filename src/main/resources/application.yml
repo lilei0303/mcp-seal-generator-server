@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mcp-seal-generate-server
+  profiles:
+    active: sse
+
+server:
+  port: 8888
+
+minio:
+  endpoint: http://127.0.0.1:9000 #Minio服务所在地址
+  bucketName: seal-down #存储桶名称
+  accessKey: adminadmin #访问的key
+  secretKey: adminadmin #访问的秘钥
