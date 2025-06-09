@@ -1,7 +1,7 @@
 # 公章、私章生成 MCP Server
 
 ## 简介
-该项目是一款基于Spring AI开发的MCP服务，支持通过MCP协议生成公章和私章图片，生成的图片通过MinIO对象存储服务保存到本地，工具返回的是图片地址。
+该项目是一款基于Spring AI开发的MCP服务，支持通过MCP协议生成公章和私章图片，生成的图片通过MinIO对象存储服务保存到本地，工具返回的是图片地址。服务已上传到MCP 服务平台[MCP.so](https://mcp.so/my-servers)。
 关于MCP协议，详见MCP官方[文档](https://modelcontextprotocol.io/)。
 任意支持MCP协议的智能体助手（如`Claude`、`Cursor`以及`千帆AppBuilder`等）都可以快速接入。
 
